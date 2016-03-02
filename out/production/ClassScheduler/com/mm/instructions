@@ -1,0 +1,27 @@
+This application will enroll a Student in classes.
+Each class lasts 1 hour.
+The school day lasts from 9am-4pm.
+A student can enroll in 3 classes maximum of the same type (e.g. - max 3 science, etc.), as long as the class is not full.
+A student must enroll in at least one physical education course.
+Each class can have a maximum of ten students.
+Enrollment is first-come, first-served.
+
+
+[1] Students will be presented with a command line menu. From the menu, are presented with the options
+to 'Enroll in a class' and 'View my current classes.'
+
+    AC1: The user should see a message saying that she wants to enroll in a class if types 1 (and show menu again)
+    AC2: The user should see a message saying that she wants to view her classes if types 2 (and show menu again)
+    AC3: The user should quit the application if types 3
+    AC4: If the user types anything different, it should send a message and restart menu
+
+
+[3] When they choose to enroll in a class, they are presented
+with a list of classes with the number of current spots already taken (e.g. - 'Biology 101  (8/10 seats taken)'
+
+[5] If they select a class with availability, they are shown a message letting them know they successfully enrolled.
+Otherwise they are told the class is full or does not meet their scheduling criteria and to choose another class. They are then
+presented with the main menu until they choose to quit their session.
+
+[3] If they choose to view their current classes, they are presented with a list of the courses they are enrolled in along
+with the number of students currently enrolled in the class as well.
