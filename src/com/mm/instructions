@@ -10,8 +10,17 @@ Enrollment is first-come, first-served.
 [1] Students will be presented with a command line menu. From the menu, are presented with the options
 to 'Enroll in a class' and 'View my current classes.'
 
+    AC1: The user should see a message saying that she wants to enroll in a class if types 1 (and show menu again)
+    AC2: The user should see a message saying that she wants to view her classes if types 2 (and show menu again)
+    AC3: The user should quit the application if types 3
+    AC4: If the user types anything different, it should send a message and restart menu
+
+
 [3] When they choose to enroll in a class, they are presented
 with a list of classes with the number of current spots already taken (e.g. - 'Biology 101  (8/10 seats taken)'
+    AC1: I see a list of the existing courses
+    AC2: If I am already enrolled in a course, I see "already enrolled" adjacent
+    AC3: I need to see the number of enrolled students in each course
 
 [5] If they select a class with availability, they are shown a message letting them know they successfully enrolled.
 Otherwise they are told the class is full or does not meet their scheduling criteria and to choose another class. They are then

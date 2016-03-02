@@ -12,20 +12,7 @@ public class Main {
 
         while (continueAskingForUserInput) {
             int userSelectedMenuOption = printer.getUserMenuSelection(readUserInput);
-            switch (userSelectedMenuOption){
-                case 1 :
-                    System.out.println("You want to add a class!!!!");
-                    break;
-                case 2 :
-                    System.out.println("You want to view your classes!!!");
-                    break;
-                case 3:
-                    System.out.println("BYE BYE");
-                    continueAskingForUserInput = false;
-                    break;
-                default:
-                    System.out.println("Sorry, that is not a valid option :(");
-            }
+            continueAskingForUserInput = printer.printSelectedMenuOption(userSelectedMenuOption);
         }
     }
 }
